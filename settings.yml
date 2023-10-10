@@ -5,7 +5,7 @@ tag_and_descriptions_list:
 
 ## Tag Layouts
 
-| TAG (You must create the tags!) | HIDES/MODIFIES ELEMENT(S)                                                                          |
+| TAG | HIDES-MODIFIES ELEMENT                                                                         |
 | ------------------------------- | -------------------------------------------------------------------------------------------------- |
 | `hide-all-but-topic-body`       | \[hides and modifies all of the below at once]                                                     |
 | `hide-header`                   | .d-header                                                                                          |
@@ -41,13 +41,13 @@ tag_and_descriptions_list:
 | `hide-topic-border-bottom`      | \[removes _border-top_ from _.topic-status-info, .topic-timer-info_]                               |
 | `hide-small-action-posts`       | .small-action.onscreen-post                                                                        |
 
-| TAG                   | HIDES/MODIFIES ELEMENT(S) - OTHER                         |
+| TAG                   | HIDES-MODIFIES - OTHER                         |
 | --------------------- | --------------------------------------------------------- |
 | `hide-topic-bg-color` | \[sets _background-color: transparent_ on _#main-outlet_] |
 
 #### Tag Combinations to Hide All But Show Some Thing(s)...
 
-| TAG1                      | TAG2            | SHOWS/MODIFIES ELEMENT(S)                  |
+| TAG1                      | TAG2            | SHOWS-MODIFIES ELEMENT                  |
 | ------------------------- | --------------- | ------------------------------------------ |
 | `hide-all-but-topic-body` | `show-timeline` | \[Hides Everything But TOC/Topic Timeline] |
 | `?`                       | `?`             | \[?]                                       |
