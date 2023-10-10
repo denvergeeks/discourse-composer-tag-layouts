@@ -3,6 +3,6 @@
   "component": true,
   "authors": "@denvergeeks",
   "about_url": "https://github.com/denvergeeks/discourse-composer-tag-layouts",
-  "about": "Use Tags in the Composer to Modify Layouts Per Topic",
+  "about": "Use Tags in the Composer to Hide Modify Layouts Per Topic",
   "version": 0.1
 }
