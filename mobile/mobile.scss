@@ -1,0 +1,15 @@
+.category-page,
+.tag-page,
+.tag-hide-avatar {
+  .topic-body {
+    width: 100% !important;
+  }
+}
+
+.tag-hide-all-but-topic-body .topic-body {
+    width: auto !important;
+}
+
+.tag-hide-all-but-topic-body nav.post-controls {
+    overflow-x: hidden !important;
+}
