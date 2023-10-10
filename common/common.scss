@@ -15,12 +15,12 @@
 
 /* HIDE hide- TAGS IN UI */
 
-div.tag-box[data-tag-name*='layout-'],
-div.tag-box[data-tag-name*='hide-'],
 li.sidebar-section-link-wrapper[data-tag-name*='layout-'],
 li.sidebar-section-link-wrapper[data-tag-name*='hide-'],
 .tags-list.tag-list.tag-group-layout-tags,
 .tags-list.tag-list.tag-group-hide-with-tags,
+.tags-list div.tag-box[data-tag-name*='layout-'],
+.tags-list div.tag-box[data-tag-name*='hide-'],
 .discourse-tag[href*='layout-'],
 .discourse-tag[href*='hide-'] {
   display:none !important;
