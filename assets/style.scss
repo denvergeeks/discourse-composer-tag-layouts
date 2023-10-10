@@ -1,0 +1,16 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+header {
+    display:none !important;
+}
+
+.site-header {
+    border-top: none !important;
+    border-bottom: none !important;
+    height: 0px !important;
+    min-height: 0px !important;
+    position: relative;
+}
