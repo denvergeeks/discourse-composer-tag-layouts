@@ -1,17 +1,8 @@
 {
-  "name": "功能标签的编辑框提示",
+  "name": "Composer Tag Layouts",
   "component": true,
-  "license_url": null,
-  "about_url": null,
-  "authors": "Lhc_fl",
-  "theme_version": null,
-  "minimum_discourse_version": null,
-  "maximum_discourse_version": null,
-  "assets": {
-  },
-  "color_schemes": {
-  },
-  "modifiers": {
-  },
-  "learn_more": "https://meta.discourse.org/t/beginners-guide-to-using-discourse-themes/91966"
+  "authors": "@denvergeeks",
+  "about_url": "https://github.com/denvergeeks/discourse-composer-tag-layouts",
+  "about": "Use Tags in the Composer to Modify Layouts Per Topic",
+  "version": 0.1
 }
