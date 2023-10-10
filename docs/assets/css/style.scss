@@ -1,6 +1,8 @@
 @import "{{ site.theme }}";
 
-
+header {
+    disply:none;
+}
 .site-header {
     border-top: none;
     border-bottom: none;
