@@ -1,6 +1,9 @@
 @import "{{ site.theme }}";
 
-header.site-header {
-  display: none;
-  border: none;
+
+.site-header {
+    border-top: none;
+    border-bottom: none;
+    min-height: unset;
+    position: relative;
 }
