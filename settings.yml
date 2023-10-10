@@ -1,68 +1,218 @@
 tag_and_descriptions_list:
   default: >-
     [
-      {"tag_name": "tag-layouts", "Tag Layouts Help >>": "# Hide Elements Using Tags
+      {"tag_name": "tag-layouts", "Tag Layouts Help >>": "<table>
+<thead>
+<tr>
+<th>TAG</th>
+<th>HIDES/MODIFIES ELEMENT(S)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>hide-all-but-topic-body</td>
+<td>[hides and modifies all of the below at once]</td>
+</tr>
+<tr>
+<td>hide-header</td>
+<td>.d-header</td>
+</tr>
+<tr>
+<td>hide-sidebar</td>
+<td>.sidebar-wrapper</td>
+</tr>
+<tr>
+<td>hide-topic-status</td>
+<td>.title-wrapper .topic-statuses</td>
+</tr>
+<tr>
+<td>hide-title</td>
+<td>#topic-title</td>
+</tr>
+<tr>
+<td>hide-avatar</td>
+<td>.topic-avatar</td>
+</tr>
+<tr>
+<td>hide-author</td>
+<td>.topic-meta-data.names</td>
+</tr>
+<tr>
+<td>hide-edits</td>
+<td>div.post-info.edits</td>
+</tr>
+<tr>
+<td>hide-post-date</td>
+<td>div.post-info.post-date</td>
+</tr>
+<tr>
+<td>hide-read-state</td>
+<td>.topic-body .read-state</td>
+</tr>
+<tr>
+<td>hide-category</td>
+<td>.topic-category</td>
+</tr>
+<tr>
+<td>hide-all-meta-data</td>
+<td>.topic-meta-data</td>
+</tr>
+<tr>
+<td>hide-timeline</td>
+<td>.topic-navigation.with-timeline</td>
+</tr>
+<tr>
+<td>hide-mobile-topic-progress</td>
+<td>div#topic-progress</td>
+</tr>
+<tr>
+<td>hide-topic-footer-buttons</td>
+<td>#topic-footer-buttons</td>
+</tr>
+<tr>
+<td>hide-topic-map</td>
+<td>div.topic-map</td>
+</tr>
+<tr>
+<td>hide-more-topics</td>
+<td>div.more-topics__container</td>
+</tr>
+<tr>
+<td>hide-more-content</td>
+<td>.more-content-wrapper</td>
+</tr>
+<tr>
+<td>hide-suggested-topics-message</td>
+<td>.suggested-topics-message</td>
+</tr>
+<tr>
+<td>hide-post-links</td>
+<td>.post-links-container</td>
+</tr>
+<tr>
+<td>hide-main-side-margins</td>
+<td>[adjusts columns and other widths]</td>
+</tr>
+<tr>
+<td>hide-post-menu-area</td>
+<td>.post-menu-area</td>
+</tr>
+<tr>
+<td>hide-reactions</td>
+<td>.discourse-reactions-actions</td>
+</tr>
+<tr>
+<td>hide-copy-link</td>
+<td>button.widget-button.btn-flat.post-action-menu__copy-link.no-text.btn-icon</td>
+</tr>
+<tr>
+<td>hide-like-button</td>
+<td>button.widget-button.btn-flat.button-count.like-count.highlight-action.regular-likes.btn-icon-text</td>
+</tr>
+<tr>
+<td>hide-flag-button</td>
+<td>button.widget-button.btn-flat.create-flag.no-text.btn-icon</td>
+</tr>
+<tr>
+<td>hide-bookmark-button</td>
+<td>button.widget-button.btn-flat.bookmark.with-reminder.no-text.btn-icon</td>
+</tr>
+<tr>
+<td>hide-reply-button</td>
+<td>button.widget-button.btn-flat.reply.create.fade-out.btn-icon-text</td>
+</tr>
+<tr>
+<td>hide-signup-cta</td>
+<td>.signup-cta</td>
+</tr>
+<tr>
+<td>hide-main-padding</td>
+<td>[removes all padding from <em>#main-outlet</em>]</td>
+</tr>
+<tr>
+<td>hide-topic-border-top</td>
+<td>[removes <em>border-top</em> from <em>.topic-body</em>]</td>
+</tr>
+<tr>
+<td>hide-topic-border-bottom</td>
+<td>[removes <em>border-top</em> from <em>.topic-status-info, .topic-timer-info</em>]</td>
+</tr>
+<tr>
+<td>hide-small-action-posts</td>
+<td>.small-action.onscreen-post</td>
+</tr>
+<tr>
+<td>hide-</td>
+<td>[MORE??]</td>
+</tr>
+</tbody>
+</table>
 
-## Tag Layouts
+  
+<table>
+<thead>
+<tr>
+<th>TAG</th>
+<th>HIDES/MODIFIES ELEMENT(S) - THESE ITEMS ARE <em>NOT</em> INCLUDED WHEN THE hide-all-but-topic-body TAG IS APPLIED</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>hide-topic-bg-color</td>
+<td>[sets <em>background-color: transparent</em> on <em>#main-outlet</em>]</td>
+</tr>
+<tr>
+<td>hide-</td>
+<td>[MORE??]</td>
+</tr>
+</tbody>
+</table>
 
-| TAG | HIDES-MODIFIES ELEMENT                                                                         |
-| ------------------------------- | -------------------------------------------------------------------------------------------------- |
-| `hide-all-but-topic-body`       | \[hides and modifies all of the below at once]                                                     |
-| `hide-header`                   | .d-header                                                                                          |
-| `hide-sidebar`                  | .sidebar-wrapper                                                                                   |
-| `hide-topic-status`             | .title-wrapper .topic-statuses                                                                     |
-| `hide-title`                    | #topic-title                                                                                       |
-| `hide-avatar`                   | .topic-avatar                                                                                      |
-| `hide-author`                   | .topic-meta-data.names                                                                             |
-| `hide-edits`                    | div.post-info.edits                                                                                |
-| `hide-post-date`                | div.post-info.post-date                                                                            |
-| `hide-read-state`               | .topic-body .read-state                                                                            |
-| `hide-category`                 | .topic-category                                                                                    |
-| `hide-all-meta-data`            | .topic-meta-data                                                                                   |
-| `hide-timeline`                 | .topic-navigation.with-timeline                                                                    |
-| `hide-mobile-topic-progress`    | div#topic-progress                                                                                 |
-| `hide-topic-footer-buttons`     | #topic-footer-buttons                                                                              |
-| `hide-topic-map`                | div.topic-map                                                                                      |
-| `hide-more-topics`              | div.more-topics\_\_container                                                                       |
-| `hide-more-content`             | .more-content-wrapper                                                                              |
-| `hide-suggested-topics-message` | .suggested-topics-message                                                                          |
-| `hide-post-links`               | .post-links-container                                                                              |
-| `hide-main-side-margins`        | \[adjusts columns and other widths]                                                                |
-| `hide-post-menu-area`           | .post-menu-area                                                                                    |
-| `hide-reactions`                | .discourse-reactions-actions                                                                       |
-| `hide-copy-link`                | button.widget-button.btn-flat.post-action-menu\_\_copy-link.no-text.btn-icon                       |
-| `hide-like-button`              | button.widget-button.btn-flat.button-count.like-count.highlight-action.regular-likes.btn-icon-text |
-| `hide-flag-button`              | button.widget-button.btn-flat.create-flag.no-text.btn-icon                                         |
-| `hide-bookmark-button`          | button.widget-button.btn-flat.bookmark.with-reminder.no-text.btn-icon                              |
-| `hide-reply-button`             | button.widget-button.btn-flat.reply.create.fade-out.btn-icon-text                                  |
-| `hide-signup-cta`               | .signup-cta                                                                                        |
-| `hide-main-padding`             | \[removes all padding from _#main-outlet_]                                                         |
-| `hide-topic-border-top`         | \[removes _border-top_ from _.topic-body_]                                                         |
-| `hide-topic-border-bottom`      | \[removes _border-top_ from _.topic-status-info, .topic-timer-info_]                               |
-| `hide-small-action-posts`       | .small-action.onscreen-post                                                                        |
+  
+<table>
+<thead>
+<tr>
+<th>TAG1</th>
+<th>TAG2</th>
+<th>HIDES ALL BUT SHOWS SOME THING(S)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>hide-all-but-topic-body</td>
+<td>show-timeline</td>
+<td>[Hides Everything But TOC/Topic Timeline]</td>
+</tr>
+</tbody>
+</table>
 
-| TAG                   | HIDES-MODIFIES - OTHER                         |
-| --------------------- | --------------------------------------------------------- |
-| `hide-topic-bg-color` | \[sets _background-color: transparent_ on _#main-outlet_] |
-
-#### Tag Combinations to Hide All But Show Some Thing(s)...
-
-| TAG1                      | TAG2            | SHOWS-MODIFIES ELEMENT                  |
-| ------------------------- | --------------- | ------------------------------------------ |
-| `hide-all-but-topic-body` | `show-timeline` | \[Hides Everything But TOC/Topic Timeline] |
-| `?`                       | `?`             | \[?]                                       |
-| `?`                       | `?`             | \[?]                                       |
-
-#### Tags Specific to a Theme Component or Plugin...
-
-| Theme/Component/Plugin | TAG                          | HIDES/MODIFIES ELEMENT(S)                                       |
-| ---------------------- | ---------------------------- | --------------------------------------------------------------- |
-| Elegant Theme          | `hide-topic-body-box-shadow` | \[removes _box-shadow_ from _.topic-body_ in the Elegant Theme] |
-| Header Submenus        | `hide-header-submenus`       | \[removes Header Submenus Theme Component]                      |
-| Discourse Drawer       | `hide-drawer`                | \[removes Discourse Drawer Theme Component]                     |
-
-Background: [Create custom layouts for individual Topic Posts in Discourse](https://meta.discourse.org/t/page-publishing/151971/145)
-", "hide_for_OP": false, "hide_for_replyer": false}
+  
+<table>
+<thead>
+<tr>
+<th>Theme/Component/Plugin</th>
+<th>TAG</th>
+<th>HIDES/MODIFIES ELEMENT(S) - THESE ITEMS ARE SPECIFIC TO THEMES, THEME COMPONENTS AND PLUGINS</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Elegant Theme</td>
+<td>hide-topic-body-box-shadow</td>
+<td>[removes <em>box-shadow</em> from <em>.topic-body</em> in the Elegant Theme]</td>
+</tr>
+<tr>
+<td>Header Submenus</td>
+<td>hide-header-submenus</td>
+<td>[removes Header Submenus Theme Component]</td>
+</tr>
+<tr>
+<td>Discourse Drawer</td>
+<td>hide-drawer</td>
+<td>[removes Discourse Drawer Theme Component]</td>
+</tr>
+</tbody>
+</table>", "hide_for_OP": false, "hide_for_replyer": false}
     ]
   json_schema: |
     {
