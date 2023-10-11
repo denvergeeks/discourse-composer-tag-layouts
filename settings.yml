@@ -1,7 +1,7 @@
 tag_and_descriptions_list:
   default: >-
     [
-      {"tag_name": "tag-layouts", "short_description": "Tag Layouts Help >>", "long_description": "<iframe src=\"https://denvergeeks.github.io/discourse-composer-tag-layouts\"></iframe>", "hide_for_OP": false, "hide_for_replyer": false}
+      {"tag_name": "tag-layouts", "short_description": "Tag Layouts Help >>", "long_description": "<iframe src=\"https://denvergeeks.github.io/discourse-tag-layouts/\"></iframe>", "hide_for_OP": false, "hide_for_replyer": false}
     ]
   json_schema: |
     {
