@@ -4,10 +4,15 @@
     color: var(--primary-medium);
     padding-right: 3px;
 }
+/*
 .composer-tag-tip-modal-body {
     max-width: 600px;
 }
-
+*/
+.composer-tag-tip-modal-body {
+    max-width: 600px;
+    min-width: 470px;
+}
 
 /********************** REMOVE SPECIFIC ELEMENTS FROM DEFAULT LAYOUT **********************/
 
