@@ -53,3 +53,4 @@
 | Elegant Theme          | `hide-topic-body-box-shadow` | [removes _box-shadow_ from _.topic-body_ in the Elegant Theme] |
 | Header Submenus        | `hide-header-submenus`       | [removes Header Submenus Theme Component]                      |
 | Discourse Drawer       | `hide-drawer`                | [removes Discourse Drawer Theme Component]                     |
+
