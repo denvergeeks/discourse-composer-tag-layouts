@@ -384,6 +384,9 @@ li.sidebar-section-link-wrapper[data-tag-name*='hide-'],
 /* HIDE ALL BUT TOPIC BODY */
 
 .tag-hide-all-but-topic-body {
+  article:not(#post_1) {
+    display: none !important;
+  }
   .header-submenus,
   .music-player {
     display: none !important;
