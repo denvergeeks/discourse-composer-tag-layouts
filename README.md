@@ -1,5 +1,7 @@
 #### Discussion and use-cases are described over on Meta:  [Create custom layouts for individual Topic Posts in Discourse](https://meta.discourse.org/t/page-publishing/151971/145)
 
+[This version includes settings for a Help Popup when the tag **tag-layouts** is applied. A clickable link will appear in the botton right corner of the composer text area which pops up a modal containing all of the available tags which can be used, and what they do.]
+
 ## First things first...
 
 ## 1) Discourse default settings need some adjustments in order for this to work:
