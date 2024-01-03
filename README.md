@@ -1,4 +1,4 @@
-**This Theme Component for Discourse enables the author of a Topic to create a custom layout for any particular Topic by adding certain pre-defined tags which, when applied, selectively remove specific elements and sections of the layout for that Topic only.**
+_**This Theme Component for Discourse enables the author of a Topic to create a custom layout for any particular Topic by adding certain pre-defined tags which, when applied, selectively remove specific elements and sections of the layout for that Topic only.**_
 
 #### Discussion and use-cases are described over on Meta:  [Create custom layouts for individual Topic Posts in Discourse](https://meta.discourse.org/t/page-publishing/151971/145)
 
