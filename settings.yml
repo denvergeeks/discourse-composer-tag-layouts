@@ -31,4 +31,4 @@ show_modal_instead_of_summary:
   default: false
   description: 
     zh_CN: 显示弹窗而非显示文本。适合需要写很长的文本，编辑框不够放时。
-    en: Show modal rather than details box. Suitable for writing very long text, when the edit box is not enough.
+    en: (MODAL NOT CURRENTLY WORKING) Show modal rather than details box. Suitable for writing very long text, when the edit box is not enough.
