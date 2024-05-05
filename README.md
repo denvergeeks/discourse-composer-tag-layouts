@@ -2,7 +2,7 @@ _**This Theme Component for Discourse enables the author of a Topic to create a 
 
 #### Discussion and use-cases are described over on Meta:  [Create custom layouts for individual Topic Posts in Discourse](https://meta.discourse.org/t/page-publishing/151971/145)
 
-[This version includes settings for a Help Popup when the tag **tag-layouts** is applied. A clickable link will appear in the botton right corner of the composer text area which pops up a modal containing all of the available tags which can be used, and what they do. (The contents of the modal can be changed in the component's settings, but it defaults to [https://denvergeeks.github.io/discourse-tag-layouts/](https://denvergeeks.github.io/discourse-composer-tag-layouts/docs/).) Code from https://meta.discourse.org/t/composer-tip-under-specific-tag-topics/255618 was integrated into this theme component in order to provide this functionality. (The site setting **characters required enabled** should be un-checked or it will hide the Help Popup link, as it occupies that same space in the composer text area.)]
+[This version includes settings for a Help Popup when the tag **tag-layouts** is applied. A clickable link will appear in the botton right corner of the composer text area which pops up a modal containing all of the available tags which can be used, and what they do. (The contents of the modal can be changed in the component's settings, but it defaults to [https://denvergeeks.github.io/discourse-composer-tag-layouts/docs/](https://denvergeeks.github.io/discourse-composer-tag-layouts/docs/).) Code from https://meta.discourse.org/t/composer-tip-under-specific-tag-topics/255618 was integrated into this theme component in order to provide this functionality. (The site setting **characters required enabled** should be un-checked or it will hide the Help Popup link, as it occupies that same space in the composer text area.)]
 
 ## First things first...
 
@@ -40,7 +40,9 @@ Required: ![discourse-setting-show-tags-by-group](https://github.com/denvergeeks
 
 ### Now your site should be ready to use the following Tags...
 
-> For convenience, [here is a link to an HTML page](https://denvergeeks.github.io/discourse-tag-layouts/) with just the tables.
+> For convenience, [here is a link to an HTML page](https://denvergeeks.github.io/discourse-composer-tag-layouts/docs/) with just the tables.
+> 
+https://denvergeeks.github.io/discourse-tag-layouts/
 >
 > I also use a plugin to provide a Help Popup inside the Composer:  https://github.com/denvergeeks/discourse-plugin-composer-help-button
 ---
