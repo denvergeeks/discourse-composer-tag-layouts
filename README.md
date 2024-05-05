@@ -42,7 +42,6 @@ Required: ![discourse-setting-show-tags-by-group](https://github.com/denvergeeks
 
 > For convenience, [here is a link to an HTML page](https://denvergeeks.github.io/discourse-composer-tag-layouts/docs/) with just the tables.
 > 
-https://denvergeeks.github.io/discourse-tag-layouts/
 >
 > I also use a plugin to provide a Help Popup inside the Composer:  https://github.com/denvergeeks/discourse-plugin-composer-help-button
 ---
