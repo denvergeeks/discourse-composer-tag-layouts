@@ -12,34 +12,31 @@ In your site's admin settings, search for **tag** and insure the following setti
 
 Required: ![discourse-setting-enable-tags-on-topics](https://github.com/denvergeeks/discourse-composer-tag-layouts/assets/322529/16ac3d42-da04-4ea9-a497-742083100842)
 
+Required: ![discourse-setting-max-tags-per-topic](https://github.com/denvergeeks/discourse-composer-tag-layouts/assets/322529/d31eee90-1233-4925-b2b2-90fe6e4bde19)
 
+Optional (Helpful for Admin): ![discourse-setting-default-navigation-menu-tags](https://github.com/denvergeeks/discourse-composer-tag-layouts/assets/322529/ac3f44f0-6fb0-4bb5-b450-fca4f57e5248)
 
+Required: ![discourse-setting-max-tag-length](https://github.com/denvergeeks/discourse-composer-tag-layouts/assets/322529/e21170dd-ebe7-4753-878a-1556bb9216ff)
 
-Required: ![discourse-setting-max-tags-per-topic](https://github.com/denvergeeks/discourse-tag-styles/assets/322529/bb869b2b-05b1-4021-b55c-aded0508bf97)
+Optional (Helpful for Admin): ![discourse-setting-max-tags-search-result](https://github.com/denvergeeks/discourse-composer-tag-layouts/assets/322529/aca6afcd-61a1-46c2-b6c2-28e56b05d422)
 
-Optional (Helpful for Admin): ![discourse-setting-default-navigation-menu-tags](https://github.com/denvergeeks/discourse-tag-styles/assets/322529/ba25abb5-602a-4c9c-941d-efa083a75d58)
+Optional (Helpful for Admin): ![discourse-setting-max-tags-in-filter-list](https://github.com/denvergeeks/discourse-composer-tag-layouts/assets/322529/d88cead1-3152-4eec-a70a-083afa190f1a)
 
-Required: ![discourse-setting-max-tag-length](https://github.com/denvergeeks/discourse-tag-styles/assets/322529/313411e1-7548-400b-919f-18ace1714e82)
+Optional (Helpful for Admin): ![discourse-setting-tags-sort-alphabetically](https://github.com/denvergeeks/discourse-composer-tag-layouts/assets/322529/3c1fccdf-5e4a-4cd3-a15e-adcb4f6ce73a)
 
-Optional (Helpful for Admin): ![discourse-setting-max-tags-search-result](https://github.com/denvergeeks/discourse-tag-styles/assets/322529/ae3af421-a645-4107-bac5-d894acd4e5bd)
+Optional (Helpful for Admin): ![discourse-setting-tags-listed-by-group](https://github.com/denvergeeks/discourse-composer-tag-layouts/assets/322529/061356ad-658f-45b5-b0ef-21b29d1ab7ad)
 
-Optional (Helpful for Admin): ![discourse-setting-max-tags-in-filter-list](https://github.com/denvergeeks/discourse-tag-styles/assets/322529/c6e8719f-431f-4d62-950e-a6d32d7fac20)
+Optional (Helpful for Admin): ![discourse-setting-force-lowercase-tags](https://github.com/denvergeeks/discourse-composer-tag-layouts/assets/322529/c11b61a9-5ae8-45a3-a81e-1eb0edf9272c)
 
-Optional (Helpful for Admin): ![discourse-setting-tags-sort-alphabetically](https://github.com/denvergeeks/discourse-tag-styles/assets/322529/694de10b-c61c-4df3-8ec3-6f21803c9f00)
+Optional (Helpful for Admin): ![discourse-setting-create-post-for-category-and-tag-changes](https://github.com/denvergeeks/discourse-composer-tag-layouts/assets/322529/695b3cf2-e8ad-4e7a-ad91-3607781503e0)
 
-Optional (Helpful for Admin): ![discourse-setting-tags-listed-by-group](https://github.com/denvergeeks/discourse-tag-styles/assets/322529/23d3e348-76c1-4594-98e5-9110f73f6867)
-
-Optional (Helpful for Admin): ![discourse-setting-force-lowercase-tags](https://github.com/denvergeeks/discourse-tag-styles/assets/322529/26bb2b71-7540-40e9-a7dd-21191410ecc6)
-
-Optional (Helpful for Admin): ![discourse-setting-create-post-for-category-and-tag-changes](https://github.com/denvergeeks/discourse-tag-styles/assets/322529/503fea91-207b-4115-a0af-dc70482596a0)
-
-Required: ![discourse-setting-show-tags-by-group](https://github.com/denvergeeks/discourse-tag-styles/assets/322529/f6b92cd8-6401-4e38-871a-cfda2da3b0e0)
+Required: ![discourse-setting-show-tags-by-group](https://github.com/denvergeeks/discourse-composer-tag-layouts/assets/322529/36979349-4a20-439e-85fc-bd977927b61c)
 
 ## 2) Secondly, you need to create 2 new Tag Groups so the Layout Tags will be hidden from (and won't needlessly clutter up) the Side Navigation Menu and the Tags Page:
 
-![discourse-tag-groups-layout-tags-parent](https://github.com/denvergeeks/discourse-tag-layouts/assets/322529/39ae8b97-1d92-495f-b065-4d0e56e0f527)
+![discourse-tag-groups-layout-tags-parent](https://github.com/denvergeeks/discourse-composer-tag-layouts/assets/322529/63de082a-24e7-4b17-8b93-a3aaff0fa7f7)
 
-![discourse-tag-groups-hide-with-tag-child-of-layout-tags-group](https://github.com/denvergeeks/discourse-tag-layouts/assets/322529/58b3c759-efec-4148-aa3c-c27c17d9eabb)
+![discourse-tag-groups-hide-with-tag-child-of-layout-tags-group](https://github.com/denvergeeks/discourse-composer-tag-layouts/assets/322529/1f2e0946-aacf-4a71-8cac-ac7696fe0575)
 
 ### Now your site should be ready to use the following Tags...
 
