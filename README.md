@@ -10,7 +10,10 @@ _**This Theme Component for Discourse enables the author of a Topic to create a 
 
 In your site's admin settings, search for **tag** and insure the following settings:
 
-Required: ![discourse-setting-enable-tags-on-topics](https://github.com/denvergeeks/discourse-tag-styles/assets/322529/480a5129-151e-4218-a22f-11b63759adf0)
+Required: ![discourse-setting-enable-tags-on-topics](https://github.com/denvergeeks/discourse-composer-tag-layouts/assets/322529/16ac3d42-da04-4ea9-a497-742083100842)
+
+
+
 
 Required: ![discourse-setting-max-tags-per-topic](https://github.com/denvergeeks/discourse-tag-styles/assets/322529/bb869b2b-05b1-4021-b55c-aded0508bf97)
 
