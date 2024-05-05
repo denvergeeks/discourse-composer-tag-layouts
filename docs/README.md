@@ -13,6 +13,7 @@
 | `hide-read-state`  | .topic-body .read-state  |
 | `hide-category`  | .topic-category  |
 | `hide-all-meta-data`  | .topic-meta-data  |
+| `hide-meta-data-padding`  | [removes _all padding_ from _.topic-meta-data_]  |
 | `hide-timeline`  | .topic-navigation.with-timeline  |
 | `hide-mobile-topic-progress`  | nav#topic-progress  |
 | `hide-topic-footer-buttons`  | #topic-footer-buttons  |
