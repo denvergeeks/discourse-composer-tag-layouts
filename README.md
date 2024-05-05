@@ -43,15 +43,14 @@ Required: ![discourse-setting-show-tags-by-group](https://github.com/denvergeeks
 > For convenience, [here is a link to an HTML page](https://denvergeeks.github.io/discourse-composer-tag-layouts/docs/) with just the tables.
 > 
 >
-> I also use a plugin to provide a Help Popup inside the Composer:  https://github.com/denvergeeks/discourse-plugin-composer-help-button
+> I also use a plugin to provide the Help Popup inside the Composer:  https://github.com/denvergeeks/discourse-plugin-composer-help-button
 ---
 
-### Tags to Hide Some Thing(s)...
-
-| TAG (You must create the tags!) | HIDES/MODIFIES ELEMENT(S) |
+| TAG (You must create the tags!) | HIDES/MODIFIES PAGE ELEMENT(S) |
 | ------------- | ------------- |
 | `hide-all-but-topic-body`  | [hides and modifies all of the below at once]  |
 | `hide-header`  | .d-header  |
+| `hide-profiler`  | .profiler-results  |
 | `hide-sidebar`  | .sidebar-wrapper  |
 | `hide-topic-status`  | .title-wrapper .topic-statuses  |
 | `hide-title`  | #topic-title  |
@@ -62,8 +61,9 @@ Required: ![discourse-setting-show-tags-by-group](https://github.com/denvergeeks
 | `hide-read-state`  | .topic-body .read-state  |
 | `hide-category`  | .topic-category  |
 | `hide-all-meta-data`  | .topic-meta-data  |
+| `hide-meta-data-padding`  | [removes _all padding_ from _.topic-meta-data_]  |
 | `hide-timeline`  | .topic-navigation.with-timeline  |
-| `hide-mobile-topic-progress`  | div#topic-progress  |
+| `hide-mobile-topic-progress`  | nav#topic-progress  |
 | `hide-topic-footer-buttons`  | #topic-footer-buttons  |
 | `hide-topic-map`  | div.topic-map  |
 | `hide-more-topics`  | div.more-topics__container  |
@@ -74,6 +74,7 @@ Required: ![discourse-setting-show-tags-by-group](https://github.com/denvergeeks
 | `hide-post-menu-area`  | .post-menu-area  |
 | `hide-reactions`  | .discourse-reactions-actions  |
 | `hide-copy-link`  | button.widget-button.btn-flat.post-action-menu__copy-link.no-text.btn-icon  |
+| `hide-share-button`  | button.widget-button.btn-flat.share.no-text.btn-icon  |
 | `hide-like-button`  | button.widget-button.btn-flat.button-count.like-count.highlight-action.regular-likes.btn-icon-text  |
 | `hide-flag-button`  | button.widget-button.btn-flat.create-flag.no-text.btn-icon  |
 | `hide-bookmark-button`  | button.widget-button.btn-flat.bookmark.with-reminder.no-text.btn-icon  |
