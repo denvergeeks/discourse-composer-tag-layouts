@@ -2,6 +2,7 @@
 | ------------- | ------------- |
 | `hide-all-but-topic-body`  | [hides and modifies all of the below at once]  |
 | `hide-header`  | .d-header  |
+| `hide-profiler`  | .profiler-results  |
 | `hide-sidebar`  | .sidebar-wrapper  |
 | `hide-topic-status`  | .title-wrapper .topic-statuses  |
 | `hide-title`  | #topic-title  |
@@ -24,6 +25,7 @@
 | `hide-post-menu-area`  | .post-menu-area  |
 | `hide-reactions`  | .discourse-reactions-actions  |
 | `hide-copy-link`  | button.widget-button.btn-flat.post-action-menu__copy-link.no-text.btn-icon  |
+| `hide-share-button`  | button.widget-button.btn-flat.share.no-text.btn-icon  |
 | `hide-like-button`  | button.widget-button.btn-flat.button-count.like-count.highlight-action.regular-likes.btn-icon-text  |
 | `hide-flag-button`  | button.widget-button.btn-flat.create-flag.no-text.btn-icon  |
 | `hide-bookmark-button`  | button.widget-button.btn-flat.bookmark.with-reminder.no-text.btn-icon  |
