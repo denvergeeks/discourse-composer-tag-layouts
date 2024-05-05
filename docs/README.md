@@ -13,7 +13,7 @@
 | `hide-category`  | .topic-category  |
 | `hide-all-meta-data`  | .topic-meta-data  |
 | `hide-timeline`  | .topic-navigation.with-timeline  |
-| `hide-mobile-topic-progress`  | div#topic-progress  |
+| `hide-mobile-topic-progress`  | nav#topic-progress  |
 | `hide-topic-footer-buttons`  | #topic-footer-buttons  |
 | `hide-topic-map`  | div.topic-map  |
 | `hide-more-topics`  | div.more-topics__container  |
